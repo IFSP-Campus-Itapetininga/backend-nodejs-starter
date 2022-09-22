@@ -1,11 +1,11 @@
 ﻿module.exports = function (plop) {
-  plop.setGenerator('component', {
-    description: 'Criação de componente',
+  plop.setGenerator('module', {
+    description: 'Criação de módulo',
     prompts: [
       {
         type: 'input',
         name: 'name',
-        message: 'adicione nome do componente'
+        message: 'adicione nome do módulo'
       }
     ],
     actions: [
