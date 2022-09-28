@@ -22,6 +22,11 @@
       {
         type: 'add',
         path: '../src/modules/{{lowerCase name}}/models/.gitkeep'
+      },
+      {
+        type: 'add',
+        path: '../src/modules/{{lowerCase name}}/services/{{lowerCase name}}.js',
+        templateFile: './templates/services.js.hbs'
       }
     ]
   })

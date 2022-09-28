@@ -1,5 +1,6 @@
 const helloWorld = (req, res) => {
-  res.send('Hello world!')
+  const example = require('../services/example')
+  res.send(example)
 }
 
 module.exports = {
